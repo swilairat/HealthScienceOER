@@ -1,0 +1,117 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "https://raw.githubusercontent.com/swilairat/HealthScienceOER/main/OER%20HealthSciencesMasterTitleList%20-%20Sheet1.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Title",
+            "type": "string",
+            "format": "default",
+            "title": "Title",
+            "description": "Title of Work"
+          },
+          {
+            "name": "Author ",
+            "type": "string",
+            "format": "default",
+            "title": "Author",
+            "description": "Multiple authors separated by semicolons"
+          },
+          {
+            "name": "Date Published",
+            "type": "year",
+            "format": "default",
+            "title": "Year Published",
+            "description": "NA occurs when no year is available"
+          },
+          {
+            "name": "URL",
+            "type": "string",
+            "format": "default",
+            "title": "URL",
+            "description": "Persistent link to the resource"
+          },
+          {
+            "name": "CC License",
+            "type": "string",
+            "format": "default",
+            "title": "CC License",
+            "description": "Creative Commons license, or public domain. "
+          },
+          {
+            "name": "Audience",
+            "type": "string",
+            "format": "default",
+            "title": "Intended Audience",
+            "description": "Dataset creator's best guess for most appropriate audience"
+          },
+          {
+            "name": "Material Type",
+            "type": "string",
+            "format": "default",
+            "title": "Material type",
+            "description": "Book, Interactive lab, videos, etc."
+          },
+          {
+            "name": "Media Format",
+            "type": "string",
+            "format": "default",
+            "title": "Media Format",
+            "description": "PDF, mp4, etc."
+          },
+          {
+            "name": "Topic",
+            "type": "string",
+            "format": "default",
+            "title": "Topic",
+            "description": "Science subtopic"
+          },
+          {
+            "name": "Notes",
+            "type": "string",
+            "format": "default",
+            "title": "Notes",
+            "description": "Information about logins, etc."
+          },
+          {
+            "name": "Keywords/Metadata?",
+            "type": "string",
+            "format": "default",
+            "title": "Metadata",
+            "description": "Recommended Search Tags"
+          }
+        ]
+      },
+      "title": "OER Health Sciences Materials",
+      "description": "A list of OER materials related to Health Sciences topics appropriate for graduate level study. "
+    }
+  ],
+  "keywords": [
+    "OER",
+    "Graduate",
+    "Science",
+    "Open Educational Resources",
+    "Health Science"
+  ],
+  "name": "oer-health-sciences-master-title-list",
+  "title": "OER Health Sciences Master Title List",
+  "description": "A list of OER materials related to Health Sciences topics appropriate for graduate level study. ",
+  "homepage": "https://github.com/swilairat/HealthScienceOER",
+  "contributors": [
+    {
+      "title": "S Wilairat",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
